@@ -31,6 +31,7 @@ def generate_account():
     # Convert private key into an Ethereum account
     account = Account.privateKeyToAccount(private)
 
+    
     return account
 
 def get_balance(w3, address):
